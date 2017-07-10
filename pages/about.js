@@ -1,3 +1,8 @@
+import Header from './header'
+
 export default () => (
-  <div>This is the about page.</div>
+  <div>
+    <Header />
+    <div>This is the about page..</div>
+  </div>
 )
